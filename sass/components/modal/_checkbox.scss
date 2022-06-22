@@ -1,9 +1,9 @@
 .checkbox__wrap {
-@include display;
+  @include display;
 }
 
 .form__checkbox {
-  @include  form__checkbox; 
+  @include form__checkbox;
 
   &:checked + .checkbox__text .checkbox__icon {
     border: none;
@@ -16,7 +16,7 @@
 }
 
 .checkbox__text {
-@include display;
+  @include display;
   font-size: 14px;
   line-height: 1.71;
   cursor: pointer;
@@ -66,10 +66,11 @@
   border-color: transparent;
   color: $header-bgr-color;
 
- transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
+  @include transition;
 
   &:hover,
   &:focus {
-    background-color: $accent-bgr-color;
+    background-color: $btn-hover-color;
   }
 }

@@ -35,14 +35,13 @@
 .join__link {
   width: 100%;
   height: 100%;
-@include display;
+  @include display;
   color: $header-bgr-color;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 
   transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @include transition;
   &:hover,
   &:focus {
     background-color: $accent-bgr-color;

@@ -15,14 +15,13 @@
   color: $title-text-color;
   text-decoration: none;
 
-  font-family: Raleway, sans-serif;
+  font-family: $text-raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
 
   transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @include transition;
   &:hover,
   &:focus {
     color: $accent-bgr-color;
@@ -41,8 +40,7 @@
   line-height: 1.7;
 
   transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @include transition;
   &:hover,
   &:focus {
     color: $accent-bgr-color;
@@ -66,8 +64,7 @@
   line-height: 1.7;
 
   transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @include transition;
   &:focus,
   &:hover {
     color: $accent-bgr-color;
