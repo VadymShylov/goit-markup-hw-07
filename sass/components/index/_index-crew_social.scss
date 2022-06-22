@@ -16,9 +16,7 @@
 }
 
 .crew__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@include display;
   border-radius: 50%;
 
   width: 100%;

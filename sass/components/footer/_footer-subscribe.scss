@@ -25,9 +25,7 @@
 }
 
 .subscribe__button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@include display;
   width: 200px;
   height: 50px;
   padding: 10px 28px 10px 29px;
