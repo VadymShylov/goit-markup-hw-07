@@ -1,0 +1,8 @@
+.nav {
+  background-color: $header-bgr-color;
+  border-bottom: 1px solid $header-border-color;
+}
+.main__nav {
+  display: flex;
+  align-items: center;
+}

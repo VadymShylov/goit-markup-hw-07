@@ -1,0 +1,52 @@
+//Joinn
+.join__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: $header-bgr-color;
+  margin-bottom: 20px;
+}
+
+.join__box {
+  margin-left: 70px;
+}
+
+.join__list {
+  display: flex;
+  list-style: none;
+}
+
+.join__item:not(:first-child) {
+  margin-left: 10px;
+}
+
+.join__item {
+  width: 44px;
+  height: 44px;
+  &:not(:first-child) {
+    margin-left: 10px;
+  }
+  &:not(:first-child) {
+    margin-left: 10px;
+  }
+}
+
+.join__link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $header-bgr-color;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: $accent-bgr-color;
+  }
+}

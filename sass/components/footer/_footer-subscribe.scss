@@ -1,0 +1,52 @@
+//subscribe
+.subscribe__section {
+  margin-left: 93px;
+}
+
+.subscribe__title {
+  color: $header-bgr-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  margin: 0px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.subscribe__input {
+  width: 358px;
+  height: 50px;
+  padding: 15px 0 15px 16px;
+  background-color: $footer-bgr-color;
+  color: $header-bgr-color;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.subscribe__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  padding: 10px 28px 10px 29px;
+  background-color: $accent-bgr-color;
+  color: $header-bgr-color;
+  border-radius: 4px;
+  margin-left: 12px;
+  border: 1px solid $accent-bgr-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.button__form {
+  display: flex;
+}
+
+.svg__send {
+  fill: currentColor;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
